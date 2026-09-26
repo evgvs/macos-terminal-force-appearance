@@ -18,9 +18,9 @@ __attribute__((constructor))
 static void ForceDark(void)
 {
     #ifdef LIGHT_THEME
-        fprintf(stderr, "*** ForceLight loaded ***\n");
+        //fprintf(stderr, "*** ForceLight loaded ***\n");
     #else // DARK
-        fprintf(stderr, "*** ForceDark loaded ***\n");
+        //fprintf(stderr, "*** ForceDark loaded ***\n");
     #endif
 
     dispatch_async(dispatch_get_main_queue(), ^{

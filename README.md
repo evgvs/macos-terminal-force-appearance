@@ -28,4 +28,4 @@ Add the "Dark Terminal" and "Light Terminal" apps to macOS. The title bars of th
 ./install.sh dark
 ```
 
-Apps will be installed to `~/Applications`
+Apps will be installed to `~/Applications`.
