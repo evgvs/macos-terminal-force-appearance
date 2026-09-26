@@ -64,7 +64,7 @@ EOF
 }
 
 install_light() {
-    echo -e "\033[1m🌃 Installing Light Terminal\e[0m"
+    echo -e "\033[1m🏙️  Installing Light Terminal\e[0m"
     echo -e "⚙️  Compiling Light dylib payload"
     build_light
 
